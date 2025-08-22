@@ -6,6 +6,12 @@ A collection of classic C++ games from my college days. This repository will inc
 - Traffigo (Car Race)
 - Egatho (Egg Basket)
 
+## Developers
+
+- [The S.Brous](https://github.com/sbrous-org)  
+- [Sudipta Nath](https://github.com/xudipta)  
+- [Subhojoy Dey](https://github.com/Dsubho-dev)
+
 ## Structure
 
 - `games/` - Contains the source code for each game in its own subfolder.
