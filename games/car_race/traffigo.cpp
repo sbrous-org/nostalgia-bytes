@@ -751,12 +751,11 @@ class MENU
   			SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),13);
   			cout<<"Developer:";
   			gotoxy(26,i+3);
-  			cout<<"SUDIPTA NATH";
-  			/*gotoxy(26,i+4);
+  			cout<<"The S.Brous";
+  			gotoxy(26,i+4);
 	  		cout<<"SUDIPTA NATH";
-	  		cout<<"The S.Brous";
   			gotoxy(26,i+5);
-  			cout<<"SUBHOJOY DEY";*/
+  			cout<<"SUBHOJOY DEY";
 		}
 		for(int i=3;i>0;i--)
 		{	

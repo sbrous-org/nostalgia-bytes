@@ -672,12 +672,12 @@ void developers()
   		gotoxy(26,i+1);
   		SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),13);
   		cout<<"Developer:";
-  		//gotoxy(26,i+3);
-  		//cout<<"The S.Brous";
+  		gotoxy(26,i+3);
+  		cout<<"The S.Brous";
   		gotoxy(26,i+4);
   		cout<<"SUDIPTA NATH";
-  		//gotoxy(26,i+5);
-  		//cout<<"SUBHOJOY DEY";
+  		gotoxy(26,i+5);
+  		cout<<"SUBHOJOY DEY";
 	}
 	xy=1;
 	for(int i=3;i>0;i--)
