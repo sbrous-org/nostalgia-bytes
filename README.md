@@ -4,7 +4,7 @@ A collection of classic C++ games from my college days. This repository will inc
 
 - Serpente (Snake)
 - Traffigo (Car Race)
-- Egg Basket
+- Egatho (Egg Basket)
 
 ## Structure
 
