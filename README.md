@@ -1,10 +1,12 @@
 # Nostalgia Bytes
 
+
 A collection of classic C++ games from my college days. This repository will include:
 
 - Serpente (Snake)
 - Traffigo (Car Race)
 - Egatho (Egg Basket)
+- Broppy (Flappy Bird)
 
 ## Developers
 
@@ -22,14 +24,24 @@ A collection of classic C++ games from my college days. This repository will inc
 
 ### On Linux/macOS
 
+
 1. Add your game source code into a new subfolder under `games/` (e.g., `games/snake/`).
 2. Update the `Makefile` to include your new game if needed.
 3. Run `make` commands to build or play the games.
 
-**Example:**
+**Examples:**
 ```bash
 make snake
 ./bin/snake
+
+make traffigo
+./bin/traffigo
+
+make egatho
+./bin/egatho
+
+make broppy
+./bin/broppy
 ```
 
 ### On Windows
@@ -38,9 +50,19 @@ make snake
 1. Install [MinGW](http://www.mingw.org/) and add it to your PATH.
 2. Open a command prompt in the project directory.
 3. Run:
+
    ```
    mingw32-make snake
    bin\snake.exe
+
+   mingw32-make traffigo
+   bin\traffigo.exe
+
+   mingw32-make egatho
+   bin\egatho.exe
+
+   mingw32-make broppy
+   bin\broppy.exe
    ```
 
 #### Option 2: Using the provided `build.bat`
